@@ -4,7 +4,6 @@ import data from './data.json';
 import './App.css';
 import Board from 'react-trello';
 import Dashboard from './component/Dashboard'
-import Menu from './component/Menu'
 
 function App() {
   const [ view, setView] = useState(true);
