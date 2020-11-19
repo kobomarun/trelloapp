@@ -6,7 +6,6 @@ const Dashboard = (props) => {
     const wip = props.data.lanes.filter(row => row.id === 'WIP')
     const archive = props.data.lanes.filter(row => row.id === 'ARCHIVED')
 
-    console.log('hello',completed[0].cards.length)
     return(
         <div>
             <h1>My Dashboard</h1>
